@@ -1,7 +1,7 @@
 use clap::{arg, Arg, ArgAction, ArgGroup, Command};
 
 fn main() {
-    let matches = Command::new("My CLI")
+    let matches = Command::new("SVC")
         .version("1.0")
         .author("Naphasit")
         .about("Simple version control")
